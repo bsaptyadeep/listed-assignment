@@ -1,0 +1,53 @@
+.daily-container {
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 40px;
+    border-radius: 20px;
+}
+
+.daily-container header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.daily-container p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #858585;
+}
+
+.daily-section p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #666666;
+}
+
+.daily-section {
+    margin: 20px 0px;
+    padding: 0px 10px;
+}
+
+.daily-section span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+}
+
+.green-border {
+    border-left: 5px solid #9BDD7C;
+}
+
+.blue-border {
+    border-left: 5px solid #6972C3;
+}
+
+@media only screen and (max-width: 500px) {
+    .daily-container{
+        width: 70%;
+        margin-top: 20px;
+    }
+}

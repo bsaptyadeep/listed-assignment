@@ -1,0 +1,24 @@
+.homepage-left {
+    padding: 40px;
+    width: 20%;
+}
+
+.homepage-container{
+    display: flex;
+    flex-direction: row;
+    background: #F5F5F5;
+}
+
+.home-page-content{
+    width: 80%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .home-page-content{
+        width: 100%;
+    }
+
+    .homepage-container{
+        flex-direction: column;
+    }
+}

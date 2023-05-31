@@ -1,0 +1,49 @@
+.graph-container h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.graph-container{
+    background-color: rgb(255, 255, 255);
+    padding: 30px 40px;
+    margin: 20px 20px;
+    border-radius: 20px;
+}
+
+.graph-container-graph{
+    padding: 30px 0px;
+}
+
+.graph-selection-right{
+    display: flex;
+    flex-direction: row;
+}
+
+.graph-selection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.element-dot-orange, .element-dot-green {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+
+.element-dot-orange{
+    background: #E9A0A0;
+}
+
+.element-dot-green{
+    background: #9BDD7C;
+}
+
+.graph-selection-right-element{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+}

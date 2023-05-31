@@ -1,0 +1,45 @@
+.box-container p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.box-container {
+    min-width: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0px 20px 20px 0px;
+}
+
+.box-container h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.green-box{
+    background: #DDEFE0;
+}
+
+.yellow-box{
+    background: #F4ECDD;
+}
+
+.pink-box{
+    background: #EFDADA;
+}
+
+.violet-box{
+    background: #DEE0EF;
+}
+
+.box-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

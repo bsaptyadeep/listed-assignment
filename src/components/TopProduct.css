@@ -1,0 +1,16 @@
+.top-products-container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 400px;
+}
+
+.top-products-container header{
+    padding: 20px 0px 0px 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .top-products-container{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}

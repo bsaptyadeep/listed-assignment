@@ -26,7 +26,6 @@ export const month = [
 
 const Graph = () => {
     const options = {
-        title: "Company Performance",
         curveType: "function",
         legend: { position: "bottom" },
     };
